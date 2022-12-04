@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+}
+h1{
+    color: lime;
+    font-size: 40px;
+    font-family: monospace;
+    letter-spacing: 20px;
+    text-transform: uppercase;
+    margin-left: 200px;
+}
+img{
+    margin-left: 550px;
+    border-radius:50% ;
+}
+.wrapper{
+    width: 100%;
+    height: max-content;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    background-color: transparent;
+}
+.wrapper div{
+    width: 100px;
+    height: 100px;
+    background-color: lime;
+}
+
+@media(min-width:0px) and (max-width:476.9px){
+    .wrapper div{
+        width: 35px;
+        height: 45px;
+    }
+    h1{
+        font-size: 20px;
+        letter-spacing: normal;
+        text-align: center;
+        margin-right: 50px;
+    }
+    img{
+        display: none;
+    }
+}
